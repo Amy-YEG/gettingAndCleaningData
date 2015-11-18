@@ -1,13 +1,16 @@
-       <Title>  Codebook for the Summarized UCI HAR Dataset (Tidy Dataset)</Title>
+#Codebook for the Summarized UCI HAR Dataset (Tidy Dataset)
 
 
-Data file name:  tidyData.txt
-Description: The tidy data set contains averages calculated for a series of feature vector variables per subject and per activity.  The variables were selected and processed from the UCI HAR raw data set.  The details of processing can be found in the "Data Transformation" section in this document.  
+##Data file name:  
+tidyData.txt
+##Description: 
+The tidy data set contains averages calculated for a series of feature vector variables per subject and per activity.  The variables were selected and processed from the UCI HAR raw data set.  The details of processing can be found in the "Data Transformation" section in this document.  
 
-Source: Data was downloaded from URL https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-        The project information can be found via URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
+##Source:
+Data was downloaded from URL https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip The project information can be found via URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
 
-Transformation:  A series of operations were performed on the raw data, and the R code was saved in file "run_analysis.R"                  in the same repo.  Here is a quick overview of the steps used for transforming the raw data into tidy data.
+##Transformation:  
+A series of operations were performed on the raw data, and the R code was saved in file "run_analysis.R"                  in the same repo.  Here is a quick overview of the steps used for transforming the raw data into tidy data.
                  1. Download zip data from the URL, and unzip the data to working directory.
                  2. Load the 561 featured vector variable from Train dataset, combine the activity ID and Subject with the raw train data.
                  3. Load 561 feature vector variable from the Test dataset, combine the activity ID and Subject with the raw test data.
@@ -17,13 +20,15 @@ Transformation:  A series of operations were performed on the raw data, and the 
                  7. Create the tidy data set which has the average on each variable by subject and activity.
       
 
-Format: 180 observations on the following 68 variables.
+##Format: 
 
-  subject 
-          An Integer identified the subject (a person) in the study 
-          value 1 to 30 
- 
-  activity
+180 observations on the following 68 variables. </br>
+
+>  subject 
+> >         An Integer identified the subject (a person) in the study 
+>>          value 1 to 30 
+
+>  activity
           Name of the Activity
           value (6 possible values): 
           WALKING
