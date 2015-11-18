@@ -5,8 +5,7 @@ data set.  This project was created to fullfill the requirements by the
 The tidy dataset has the average of the selected variables for each subject 
 and each activity.  Prior to creating the summarized data, the raw data 
 should include both test and train data. Activity name should be used rather than the activity ID.
-All the column names should be properly labelled. Only the mean and standard deviation variables 
-should be extracted for aggregation.
+All the column names should be properly labelled. Only the mean and standard deviation variables should be extracted for aggregation.
 ==================================================================
 
 List of Files in the repo:
@@ -18,8 +17,8 @@ List of Files in the repo:
 
 
 How to use files in this repo to create the tidy data set:
-1. Save run_analysis.R to a directory. 
-2. Run run_analysis.R (Make sure you have internet connection while running this script because it downloads the raw data from the URL)
-3. Find tidyData.txt in the working directory.  Use CookBook.MD to understand the variables in the tidyData.txt.
-4. More information about the source data project can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
+- Save run_analysis.R to a directory. 
+- Run run_analysis.R (Make sure you have internet connection while running this script because it downloads the raw data from the URL)
+- Find tidyData.txt in the working directory.  Use CookBook.MD to understand the variables in the tidyData.txt.
+- More information about the source data project can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
                      
