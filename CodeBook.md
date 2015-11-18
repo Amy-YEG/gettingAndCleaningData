@@ -10,7 +10,7 @@ The tidy data set contains averages calculated for a series of feature vector va
 Data was downloaded from URL https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 </br>The project information can be found via URL: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
 
-##Transformation:  
+##Data Transformation:  
 A series of operations were performed on the raw data, and the R code was saved in file "run_analysis.R"                  in the same repo.  Here is a quick overview of the steps used for transforming the raw data into tidy data.
                 <ol>
                 <li> Download zip data from the URL, and unzip the data to working directory.</li>
@@ -29,8 +29,6 @@ A series of operations were performed on the raw data, and the R code was saved 
  subject 
           An Integer identified the subject (a person) in the study 
           value 1 to 30 
-```
-```
  activity
           Name of the Activity
           value (6 possible values): 
@@ -40,29 +38,18 @@ A series of operations were performed on the raw data, and the R code was saved 
                   SITTING
                   STANDING
                   LAYING
-```
-```
   tBodyAcc-mean-X 
           Per subject per activity, average for the Mean of variable of feature vector tBodyAcc-X 
           Numeric Value 
-```
-```
   tBodyAcc-mean-Y 
           Per subject per activity, average for the Mean of variable of feature vector tBodyAcc-Y 
           Numeric Value 
-```
-```
   tBodyAcc-mean-Z 
           Per subject per activity, average for the Mean of variable of feature vector tBodyAcc-Z 
           Numeric Value 
-```
-```
   tBodyAcc-std-X 
           Per subject per activity, average for the Standard deviation of variable of feature vector tBodyAcc-X
           Numeric Value 
-```
-```
-  
   tBodyAcc-std-Y 
           Per subject per activity, average for the Standard deviation of variable of feature vector tBodyAcc-Y
           Numeric Value
@@ -250,3 +237,4 @@ A series of operations were performed on the raw data, and the R code was saved 
   fBodyBodyGyroJerkMag-std 
        Per subject per activity, average for the Standard deviation of variable of feature vector fBodyBodyGyroJerkMag
         Numeric Value
+```
