@@ -27,34 +27,42 @@ A series of operations were performed on the raw data, and the R code was saved 
 180 observations on the following 68 variables. </br>
 ```
  subject 
-    An Integer identified the subject (a person) in the study 
-    value 1 to 30 
+          An Integer identified the subject (a person) in the study 
+          value 1 to 30 
 ```
 ```
  activity
           Name of the Activity
           value (6 possible values): 
-          WALKING
-          WALKING_UPSTAIRS
-          WALKING_DOWNSTAIRS
-          SITTING
-          STANDING
-          LAYING
+                  WALKING
+                  WALKING_UPSTAIRS
+                  WALKING_DOWNSTAIRS
+                  SITTING
+                  STANDING
+                  LAYING
 ```
 ```
   tBodyAcc-mean-X 
           Per subject per activity, average for the Mean of variable of feature vector tBodyAcc-X 
           Numeric Value 
 ```
+```
   tBodyAcc-mean-Y 
           Per subject per activity, average for the Mean of variable of feature vector tBodyAcc-Y 
           Numeric Value 
+```
+```
   tBodyAcc-mean-Z 
           Per subject per activity, average for the Mean of variable of feature vector tBodyAcc-Z 
           Numeric Value 
+```
+```
   tBodyAcc-std-X 
           Per subject per activity, average for the Standard deviation of variable of feature vector tBodyAcc-X
           Numeric Value 
+```
+```
+  
   tBodyAcc-std-Y 
           Per subject per activity, average for the Standard deviation of variable of feature vector tBodyAcc-Y
           Numeric Value
