@@ -1,4 +1,4 @@
-         Codebook for the Summarized UCI HAR Dataset (Tidy Dataset)
+       <Title>  Codebook for the Summarized UCI HAR Dataset (Tidy Dataset)</Title>
 
 
 Data file name:  tidyData.txt
