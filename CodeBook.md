@@ -24,9 +24,9 @@ A series of operations were performed on the raw data, and the R code was saved 
 
 180 observations on the following 68 variables. </br>
 
->  subject 
-> >         An Integer identified the subject (a person) in the study 
->>          value 1 to 30 
+>>  subject 
+>>        An Integer identified the subject (a person) in the study 
+>>         value 1 to 30 
 
 >  activity
           Name of the Activity
