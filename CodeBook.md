@@ -11,14 +11,15 @@ Data was downloaded from URL https://d396qusza40orc.cloudfront.net/getdata%2Fpro
 
 ##Transformation:  
 A series of operations were performed on the raw data, and the R code was saved in file "run_analysis.R"                  in the same repo.  Here is a quick overview of the steps used for transforming the raw data into tidy data.
-                 1. Download zip data from the URL, and unzip the data to working directory.
-                 2. Load the 561 featured vector variable from Train dataset, combine the activity ID and Subject with the raw train data.
-                 3. Load 561 feature vector variable from the Test dataset, combine the activity ID and Subject with the raw test data.
-                 4. Combine the train and test data set. 
-                 5. Load feature vector variable Label and use it to name the data set. Extract only variables with name containing mean() or std().
-                 6. Replace the activity ID with the Activity Description. 
-                 7. Create the tidy data set which has the average on each variable by subject and activity.
-      
+                <ol>
+                <li> Download zip data from the URL, and unzip the data to working directory.</li>
+                 <li>Load the 561 featured vector variable from Train dataset, combine the activity ID and Subject with the raw train data.</li>
+                   <li>Load 561 feature vector variable from the Test dataset, combine the activity ID and Subject with the raw test data.</li>
+                 <li> Combine the train and test data set.</li> 
+                  <li>Load feature vector variable Label and use it to name the data set. Extract only variables with name containing mean() or std().</li>
+                  <li>Replace the activity ID with the Activity Description.</li> 
+                  <li>Create the tidy data set which has the average on each variable by subject and activity.</li>
+      </ol>
 
 ##Format: 
 
