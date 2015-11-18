@@ -1,19 +1,21 @@
-==================================================================
-The repo contains files for creating a tidy dataset out of the UCI HAR 
+
+<p>The repo contains files for creating a tidy dataset out of the UCI HAR 
 data set.  This project was created to fullfill the requirements by the 
 "Getting and Cleaning Data" course offered by Coursera.    
 The tidy dataset has the average of the selected variables for each subject 
 and each activity.  Prior to creating the summarized data, the raw data 
 should include both test and train data. Activity name should be used rather than the activity ID.
 All the column names should be properly labelled. Only the mean and standard deviation variables should be extracted for aggregation.
-==================================================================
+</p>
 
-List of Files in the repo:
-- run_analysis.R : A R file which can load raw data set from URL (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
+
+List of Files in the repo:</br>
+<ul>
+<li>run_analysis.R : A R file which can load raw data set from URL (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
                    and output tidy dataset to a file named as "tidyData.txt".
-- CodeBook.MD: The codebook describes the variable, the data, the format, and the transformation carried out. 
-
-- README.MD: Describe the purpose of the project in the repo, list of files and how to use the file to create the tidy dataset again.
+</li>
+<li>CodeBook.MD: The codebook describes the variable, the data, the format, and the transformation carried out. </li>
+<li>README.MD: Describe the purpose of the project in the repo, list of files and how to use the file to create the tidy dataset again.</li>
 
 
 How to use files in this repo to create the tidy data set:
